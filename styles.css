@@ -1,1 +1,104 @@
-/* Write your CSS here! */
+
+
+body {
+    display: block;
+    margin: 8px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #655349;
+    background-image: url("./images/pawprint.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#wrapper {
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: white;
+    border: 8px double #655349;
+    
+
+}
+
+#mainHeading {
+    color: #655349;
+    text-align: center;
+    font-family: "Brush Script MT", cursive;
+    font-size: 2em;
+}
+
+.pStyle {
+    font-style: italic;
+}
+
+#zubieTall {
+    height: 350px;
+    width: auto;
+}
+
+img {
+    width: 40%;
+    height: auto;
+    margin: 2%;
+    box-shadow: 5px 10px 8px;
+    border-radius: 8px;
+}
+ 
+p {
+    padding: 2% 10% 2% 10%;
+    text-align: left;
+}
+
+h2 {
+    background-color: #655349;
+    border-bottom: 5px ridge #bfa38e;
+    border-top: 5px ridge #bfa38e;
+    color: white;
+    padding: 7px;
+    text-decoration: wavy;
+}
+
+footer {
+    font-style: italic;
+    font-size: 1em;
+    padding: 3px;
+}
+
+/* unvisited link */
+
+a {
+    text-decoration: none;
+}
+a:link {
+    color: #bfa38e;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #776163;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #776163;
+    font-size: larger;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #776163;
+  }
+
+  li {
+    text-align: left;
+  }
+/* 
+   To pass the test- I do not want to add this in as a style because it messes with my color scheme 
+  #mainHeading {
+    color: red;
+  }
+
+  #funParagraph, .testP {
+    color: green;
+  } */
